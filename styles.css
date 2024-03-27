@@ -1,0 +1,27 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.table-user {
+    background-color: lightgoldenrodyellow;
+    border: 1px solid lightcoral;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+/* .table-user > tr {
+    border: 1px solid lightcoral;
+} */ 
+
+/* tr ทำไม่ได้ */
+
+.table-user td {
+    border: 1px solid lightcoral;
+    padding: 8px;
+    text-align: center;
+}
